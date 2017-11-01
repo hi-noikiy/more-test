@@ -199,6 +199,7 @@
             <div class="col-md-9">
               <div class="form-block">
                 <input type="hidden" name="sell_offer[offer_terms]" id="sell_offer_offer_terms_trix_input_sell_offer" value="<div>1. 请确定能在一小时内完成转账再下单，下单后请先通过站内聊天窗口和我联系，或是加我微信，确认我能及时给你释放数字币再转账给我&amp;nbsp;<br>2. 请注意您选择的交易方式（例如网上银行，支付宝）是否有每日转账金额限制&amp;nbsp;<br>3. 开始交易后数字币是锁在平台上的，请安心下单<br><br></div>">
+                <trix-editor input="<div>1. 请确定能在一小时内完成转账再下单，下单后请先通过站内聊天窗口和我联系，或是加我微信，确认我能及时给你释放数字币再转账给我&amp;nbsp;<br>2. 请注意您选择的交易方式（例如网上银行，支付宝）是否有每日转账金额限制&amp;nbsp;<br>3. 开始交易后数字币是锁在平台上的，请安心下单<br><br></div>"></trix-editor>
               </div>
             </div>
             <div class="col-md-9 col-md-offset-3 tips-text">
@@ -307,6 +308,6 @@ export default {
 </script>
 
 <style>
-@import '../../assets/css/application.css';
+@import '../../assets/css/trix.css';
 
 </style>

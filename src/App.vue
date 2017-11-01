@@ -21,4 +21,6 @@ export default {
 </script>
 
 <style>
+@import './assets/css/application.css';
+
 </style>

@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/pages/index'
-import offersNew from '@/pages/account/offersNew'
+import OffersNew from '@/pages/account/offersNew'
+import SellOffers from '@/pages/SellOffers'
 
 Vue.use(Router)
 
@@ -15,7 +16,12 @@ export default new Router({
     {
       path: '/account/offers/new',
       name: 'offersNew',
-      component: offersNew
+      component: OffersNew
+    },
+    {
+      path: '/sell/offers',
+      name: 'sellOffers',
+      component: SellOffers
     }
   ]
 })
