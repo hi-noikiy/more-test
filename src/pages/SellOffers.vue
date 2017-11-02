@@ -6,8 +6,10 @@
         <!-- 右边 -->
         <div class="col-md-9 col-md-push-3">
           <!--  -->
-          <sell></sell>
-
+          <!-- <sell></sell> -->
+          <!-- <new-offer></new-offer> -->
+          <!-- <new-order></new-order> -->
+          <router-view/>
         </div>
         <!-- 左边 -->
         <div class="col-md-3 col-md-pull-9">
@@ -16,7 +18,7 @@
             <div class="timeline-box">
               <div class="timeline">
                 <div class="line text-muted"></div>
-                <article class="panel panel-default panel-outline">
+            <!--     <article class="panel panel-default panel-outline">
                   <div class="panel-heading icon">
                     <i class="fa fa-check"></i>
                   </div>
@@ -36,7 +38,7 @@
                     <br>
                     <strong>不限</strong>
                   </div>
-                </article>
+                </article> -->
 
                 <article class="panel panel-success panel-outline">
                   <div class="panel-heading icon">
@@ -133,13 +135,15 @@
 </template>
 
 <script>
-import Sell from '../components/offers/Sell'
+// import Sell from '../components/offers/Sell'
+// import NewOffer from '../components/offers/NewOffer'
+// import NewOrder from '../components/offers/NewOrder'
 
 export default {
   name: 'sellOffers',
   components: {
-    Sell
-  }
+  },
+  methods: {}
 
 }
 </script>

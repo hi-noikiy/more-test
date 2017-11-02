@@ -31,7 +31,8 @@
               <p>交易限额</p>
               <strong>2,000  -  3,000  CNY</strong>
               <hr>
-              <a class="btn btn-theme" href="/offers/9fab75500464024607763f99?currency=btc&amp;fiat_currency=cny&amp;payment_type=all">立即购买</a>
+              <router-link :to="{ name: 'newOffer'}" class="btn btn-theme">立即购买</router-link>
+              <!-- <a class="btn btn-theme" href="/offers/9fab75500464024607763f99?currency=btc&amp;fiat_currency=cny&amp;payment_type=all">立即购买</a> -->
               <br>
             </div>
           </div>
@@ -81,7 +82,8 @@
             44,645.58 CNY/BTC
           </li>
           <li class="buy-button">
-            <a class="btn btn-theme" href="/offers/9fab75500464024607763f99?payment_type=all">购买</a>
+            <router-link :to="{ name: 'newOffer'}" class="btn btn-theme">立即购买</router-link>
+            <!-- <a class="btn btn-theme" href="/offers/9fab75500464024607763f99?payment_type=all">购买</a> -->
           </li>
         </ul>
       </div>
@@ -103,6 +105,9 @@ export default {
   computed: {
   },
   methods: {
+    nextStep () {
+      this.$router.push({name: 'newOrder'})
+    }
   }
 }
 </script>
